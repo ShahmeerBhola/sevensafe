@@ -2,6 +2,7 @@ import {FETCH_ERROR, FETCH_START, FETCH_SUCCESS, HIDE_MESSAGE, SHOW_MESSAGE} fro
 
 export const fetchStart = () => {
   return {
+    
     type: FETCH_START
   }
 };
